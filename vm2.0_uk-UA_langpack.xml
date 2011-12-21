@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <extension version="0.1" type="file" method="upgrade">
+     <name>vm2.0_uk-UA_langpack</name>
+     <version>0.1</version>
+     <creationDate></creationDate>
+     <author></author>
+     <authorEmail></authorEmail>
+     <authorUrl></authorUrl>
+     <copyright>Copyright (C) 2011 Uko. All rights reserved.</copyright>
+     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+     <description>Ukrainian language pack for Virtue Mart 2.0</description>
+     <fileset>
+       <files folder="frontend" target="language/uk-UA">
+         <filename>uk-UA.com_virtuemart.ini</filename>
+       </files>
+       <files folder="backend" target="/administrator/language/uk-UA">
+         <filename>uk-UA.com_virtuemart.ini</filename>
+       </files>
+     </fileset>
+   </extension>
